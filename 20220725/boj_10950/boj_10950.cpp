@@ -6,9 +6,24 @@
 //
 
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
+int makeSum(int a, int b) {
+    return a + b;
+}
+
 int main() {
-    cout << "hi" << endl;
+    int cnt, a, b;
+    vector<int> res;
+    
+    cin >> cnt;
+    for (int i=0; i<cnt; i++) {
+        cin >> a >> b;
+        res.push_back(makeSum(a, b));
+    }
+    for (int i=0; i<cnt; i++) {
+        cout << res.at(i) <<endl;
+    }
 }
