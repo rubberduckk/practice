@@ -41,7 +41,6 @@
 		1272AE51282E22FD00EBBD8F = {
 			isa = PBXGroup;
 			children = (
-				1272AE64282E2AF500EBBD8F /* boj_sth */,
 				1272AE5C282E22FD00EBBD8F /* boj_2480 */,
 				1272AE5B282E22FD00EBBD8F /* Products */,
 			);
@@ -61,13 +60,6 @@
 				1272AE5D282E22FD00EBBD8F /* boj_2480.cpp */,
 			);
 			path = boj_2480;
-			sourceTree = "<group>";
-		};
-		1272AE64282E2AF500EBBD8F /* boj_sth */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = boj_sth;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
