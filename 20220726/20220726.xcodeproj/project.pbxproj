@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		124E49BE288EE808004268E1 /* boj_15552.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124E49BD288EE808004268E1 /* boj_15552.cpp */; };
+		127D53DE2890370900E04F78 /* boj_2742.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 127D53DD2890370900E04F78 /* boj_2742.cpp */; };
+		127D53DF289037FC00E04F78 /* boj_15552.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124E49BD288EE808004268E1 /* boj_15552.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		124E49B2288EE7B5004268E1 /* 20220726 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 20220726; sourceTree = BUILT_PRODUCTS_DIR; };
 		124E49BD288EE808004268E1 /* boj_15552.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = boj_15552.cpp; sourceTree = "<group>"; };
+		127D53DD2890370900E04F78 /* boj_2742.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = boj_2742.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,7 @@
 		124E49A9288EE7B5004268E1 = {
 			isa = PBXGroup;
 			children = (
+				127D53DC289036EE00E04F78 /* boj_2742 */,
 				124E49BC288EE7D3004268E1 /* boj_15552 */,
 				124E49B3288EE7B5004268E1 /* Products */,
 			);
@@ -60,6 +63,14 @@
 				124E49BD288EE808004268E1 /* boj_15552.cpp */,
 			);
 			path = boj_15552;
+			sourceTree = "<group>";
+		};
+		127D53DC289036EE00E04F78 /* boj_2742 */ = {
+			isa = PBXGroup;
+			children = (
+				127D53DD2890370900E04F78 /* boj_2742.cpp */,
+			);
+			path = boj_2742;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +130,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				124E49BE288EE808004268E1 /* boj_15552.cpp in Sources */,
+				127D53DF289037FC00E04F78 /* boj_15552.cpp in Sources */,
+				127D53DE2890370900E04F78 /* boj_2742.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
